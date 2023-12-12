@@ -1,6 +1,5 @@
 #include <iostream>
-
-int getInteger();
+#include "getInteger.h"
 
 int main()
 {

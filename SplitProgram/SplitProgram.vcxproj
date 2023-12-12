@@ -130,6 +130,9 @@
     <ClCompile Include="getInteger.cpp" />
     <ClCompile Include="SplitProgram.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="getInteger.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
