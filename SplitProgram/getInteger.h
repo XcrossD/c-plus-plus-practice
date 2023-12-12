@@ -1,2 +1,6 @@
-// We really should have a header guard here, but will omit it for simplicity (we'll cover header guards in the next lesson)
+#ifndef GET_INTEGER
+#define GET_INTEGER
+
 int getInteger();
+
+#endif
