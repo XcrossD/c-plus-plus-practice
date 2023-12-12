@@ -1,5 +1,5 @@
-#ifndef GET_INTEGER
-#define GET_INTEGER
+#ifndef GET_INTEGER_H
+#define GET_INTEGER_H
 
 int getInteger();
 
