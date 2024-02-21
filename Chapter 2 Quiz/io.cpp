@@ -1,6 +1,5 @@
-#include <iostream>
-
 #include "io.h"
+#include <iostream>
 
 int readNumber()
 {
