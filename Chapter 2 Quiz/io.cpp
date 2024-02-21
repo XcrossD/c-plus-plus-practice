@@ -2,7 +2,8 @@
 
 int readNumber()
 {
-    int input;
+    std::cout << "Enter a number to add: ";
+    int input {};
     std::cin >> input;
     return input;
 }

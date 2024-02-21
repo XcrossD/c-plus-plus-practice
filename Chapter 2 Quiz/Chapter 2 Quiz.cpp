@@ -9,16 +9,12 @@ void writeAnswer(int ans);
 
 int main()
 {
-    int a;
-    int b;
+    int a { readNumber() };
+    int b { readNumber() };
     
-    std::cout << "Input first number: ";
-    a = readNumber();
-    std::cout << "Input second number: ";
-    b = readNumber();
     writeAnswer(a + b);
 
-    return 1;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
