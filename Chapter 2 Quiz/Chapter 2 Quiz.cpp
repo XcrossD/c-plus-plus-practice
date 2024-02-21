@@ -12,7 +12,7 @@ int readNumber()
 
 void writeAnswer(int ans)
 {
-    std::cout << ans << "\n";
+    std::cout << "The two numbers added together is: " << ans << "\n";
 }
 
 int main()
@@ -24,7 +24,7 @@ int main()
     a = readNumber();
     std::cout << "Input second number: ";
     b = readNumber();
-    std::cout << "The two numbers added together is: " << a + b << "\n";
+    writeAnswer(a + b);
 
     return 1;
 }
