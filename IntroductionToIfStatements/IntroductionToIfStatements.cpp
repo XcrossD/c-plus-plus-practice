@@ -3,13 +3,29 @@
 
 #include <iostream>
 
+bool isPrime(int x) {
+    if (x == 2) {
+        return true;
+    }
+    else if (x == 3) {
+        return true;
+    }
+    else if (x == 5) {
+        return true;
+    }
+    else if (x == 7) {
+        return true;
+    }
+    return false;
+}
+
 int main()
 {
     int x{ 0 };
     std::cout << "Enter a number 0 through 9 (inclusive): ";
     std::cin >> x;
 
-    if (x == 2 || x == 3 || x == 5 || x == 7) {
+    if (isPrime(x)) {
         std::cout << "The digit is prime\n";
     }
     else {
